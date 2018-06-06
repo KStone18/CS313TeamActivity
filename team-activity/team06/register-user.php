@@ -8,7 +8,6 @@
 
 	$rptPassword = htmlspecialchars($_POST["psw-repeat"]);
 	$hashPassword = password_hash($password, PASSWORD_DEFAULT);
-	// echo "Your stuff: $userName $password";
 
 	if ($password != $rptPassword) {
 	    $_SESSION["message"] = "Passwords do not Match";
@@ -46,7 +45,7 @@
 
 	       // echo $_SESSION["id"];
 	       header("Location: welcome.php");
-	       echo "<h1>Done!</h1>";
+	       // echo "<h1>Done!</h1>";
 	         break;
 	   }
 	   die();

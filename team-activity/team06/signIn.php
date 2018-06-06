@@ -16,7 +16,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 
-<title> Data Collection </title>
+<title>Sign In</title>
 </head>
 <body>
 
@@ -25,18 +25,17 @@
 	<div class="containerSign">
 
 		 <h1>Sign In</h1>
-		 <p>Please fill in this form to create an account.</p>
+		 <p>Please fill in this form to sign in.</p>
 		 <hr>      
 		 <label for="Username"><b>Username</b></label>
 		 <input type="text" placeholder="Enter Username" name="uName" required><br>		       
 		 <label for="psw"><b>Password</b></label>
 		 <input type="password" placeholder="Enter Password" name="psw" required><br>      
-		 <!-- <label for="psw-repeat"><b>Repeat Password</b></label> -->
-		 <!-- <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br> -->
 		 <label>
 		   <input type="checkbox" checked="checked" name="remember" style=“margin-bottom:15px”> Remember me
 		 </label>
-       <button type="submit" class="btn btn-primary btn-md signupbtn">Sign Up</button> 
+       <button type="submit" class="btn btn-primary btn-md signupbtn">Sign In</button>
+       <a href="signUp.php">Sign up page</a> 
 	</div>
 
  </form>
